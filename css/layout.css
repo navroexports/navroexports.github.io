@@ -191,6 +191,7 @@ ul#nav li.active a { color: #0AADF1; }
    background: #1b1e21 url(../images/patterns/grey.png);
    padding-top: 56px;
    padding-bottom: 120px;
+   height: 100vh;
 }
 
 /* FlexSlider Intro Slider Styles */
