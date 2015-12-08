@@ -101,7 +101,7 @@ header.static {
 header .logo {
    position: relative;
    height: 54px;
-   width: 150px;
+   width: 110px;
    float: left;
 }
 header .logo a {
@@ -113,7 +113,7 @@ header .logo a {
    line-height: 18px;
 
    position: absolute;
-   left: 12px;
+   left: 0px;
    top: 16px;
 }
 
@@ -189,7 +189,7 @@ ul#nav li.active a { color: #0AADF1; }
    */
    overflow: hidden;
    background: #1b1e21 url(../images/patterns/grey.png);
-   padding-top: 156px;
+   padding-top: 56px;
    padding-bottom: 120px;
 }
 
@@ -1305,7 +1305,7 @@ footer .social-links li:first-child { margin-left: 0; }
    /* mobile navigation
    -------------------------------------------------------------------- */
 
-   header.mobile { height: 66px; }
+   header.mobile { height: 48px; }
    header.mobile .logo a { top: 22px; }
 
    .mobile #nav-wrap {
