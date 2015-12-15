@@ -4,7 +4,7 @@ $(function() {
  
     // Replace this line with the one on your Quickstart Guide Page
    	Parse.initialize("y3k5JfMXjc1VN6LvRTHoce5cODo2ERsJpuumMA0Z", "2awSiXPLi7UZrZCYm3moxGTYAfFA2H2NxZgj3ibm");
-
+/*
    	var TestObject = Parse.Object.extend("TestObject");
    	var testObject = new TestObject();
    
@@ -39,10 +39,10 @@ $(function() {
 ------------------------------------------------------*/
 
 	var CommentObject = Parse.Object.extend("CommentObject");
-   console.log("Comment object is:"+CommentObject);
-   var comment = new CommentObject();
+   	//console.log("Comment object is:"+CommentObject);
+   	var comment = new CommentObject();
    
-   $("#contactForm").on("submit", function(e) {
+   	$("#contactForm").on("submit", function(e) {
       e.preventDefault();
 
       console.log("Handling the submit");
@@ -60,7 +60,9 @@ $(function() {
          success:function() {
             console.log("Success");
             //Alerts are lame - but quick and easy
-            alert("Thanks for filling the form!");
+            alert("@Thanks for filling the form!");
+            $("#contactForm")[0].reset();
+
          },
          error:function(e) {
             console.dir(e);
