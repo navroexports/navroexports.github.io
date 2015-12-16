@@ -13,7 +13,7 @@ Parse.Cloud.beforeSave("CommentObject", function(request, response) {
 	var text = "Hello Nav,<br><br> You have received a new message on your website. Here are the details:<br><br>" + 
 		"From: "+request.object.get("name") + "<br>"+
 		"Email: "+request.object.get("email") + "<br>"+
-		"Subject: "+request.object.get("subject") + "<br>"+
+		"Subject: "+request.object.get("subject") + "<br><br>"+
 		"Comments:<br>" + request.object.get("message");
 
 	console.log(request.object.get("contactEmail"));

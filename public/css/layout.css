@@ -385,8 +385,8 @@ ul#nav li.active a { color: #0AADF1; }
 	top: 100px;
 	left: 50%;
 	margin-left: -300px;
-   width: 600px;
-	max-width: 600px;
+   /*width: 600px;*/
+	max-width: 400px;
 	background: #fff;
 	position: absolute;
 	z-index: 101;

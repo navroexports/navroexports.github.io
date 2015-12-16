@@ -60,7 +60,7 @@ $(function() {
          success:function() {
             console.log("Success");
             //Alerts are lame - but quick and easy
-            alert("@Thanks for filling the form!");
+            alert("Thanks for filling the form!");
             $("#contactForm")[0].reset();
 
          },
